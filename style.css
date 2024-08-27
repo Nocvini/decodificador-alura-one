@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    background: #E5E5E5;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.logoAlura {
+    margin-left: 40px;
+    padding-top: 40px;
+    width: 120;
+    height: 48px;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.caixaEsquerda {
+    height: 80%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.caixaDireita {
+    height: 80%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-area {
+    border: none;
+    color: #0A3871;
+    text-transform: lowercase;
+    width: 100%;
+    height: 48px;
+    padding: 20px;
+    top: 168px;
+    bottom: 50px;
+    left: 240px;
+    resize: none;
+}
+
+.caixaEsquerda .text-area {
+    text-transform: none;
+}
+
+::placeholder {color: #0A3871;}
+    .text-area:focus {
+        outline: none;
+    }
+
+.mensagem {
+    background: white;
+    background-image: url(/imagens/boneco.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: auto;
+}
+
+.botoes button {
+    height: 60px;
+    width: 250px;
+    border-radius: 24px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-desencriptar {
+    background-color: #D8DFE8;
+    color: #0A3871;
+    transition: 0.5s ease;
+}
+
+.btn-desencriptar:hover {
+    background-color: #0A3871;
+    color: #D8DFE8;
+    border: #D8DFE8 2px solid;
+}
+
+.btn-encriptar {
+    background: #0A3871;
+    color: white;
+    transition: 0.5s ease;
+}
+
+.btn-encriptar:hover {
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border: #0A3871 2px solid;
+}
+
+.btn-copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+}
+
+.informacao {
+    color: #495057;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.informacao img {
+    height: 20px;
+    margin-top: 300;
+}
+
+.textoAviso {
+    font-size: 18px;
+    margin-top: 330;
+}
